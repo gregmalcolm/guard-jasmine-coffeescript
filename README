@@ -1,0 +1,5 @@
+Implemented the instructions in this gist https://gist.github.com/673967
+
+
+This has been applied on a brand new rails projects, giving jasmine with coffeescript, with
+the coffeescript getting automatically recomipled via Guard.
