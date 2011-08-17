@@ -1,0 +1,11 @@
+src_dir: public/javascripts
+
+src_files:
+  - underscore.js
+  - compiled/math.js
+
+spec_dir: spec/javascripts
+
+spec_files:
+  - **/*_spec.js
+

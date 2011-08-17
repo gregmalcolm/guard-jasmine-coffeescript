@@ -1,5 +1,22 @@
-Implemented the instructions in this gist https://gist.github.com/673967
+Implemented the instructions here:
+  https://gist.github.com/673967
 
+NOTE: I didn't write the gist. I'm just following the instructions...
 
 This has been applied on a brand new rails projects, giving jasmine with coffeescript, with
 the coffeescript getting automatically recomipled via Guard.
+
+To setup:
+  bundle install
+  bundle db:migrate
+
+To run specs you need to start to proceses:
+  bundle exec guard
+  bundle exec jasmine
+
+Then from a browser go to:
+  http://localhost:8888
+
+For more information on the Guard coffeesccript plugin https://github.com/guard/guard-coffeescript
+
+Thanks to Michael Kessler (aka netzpirat) for the plugin and demo instructions!
